@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+a:-webkit-any-link  {
+  text-decoration: none;
+  color: #000;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  border: 3px solid #f0f0f0;
+}
+
+textarea {
+  border: none;
+  outline: none;
+  resize: none;
+  font-size: 14px;
+}
+
+textarea::-webkit-scrollbar {
+  width: 0;
+}
+
+// .vue-grid-item.vue-grid-placeholder {
+//   background: rgba(0, 0, 0, 0.1) !important;
+// }

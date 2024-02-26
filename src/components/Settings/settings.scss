@@ -1,0 +1,23 @@
+.settings {
+  position: absolute;
+  z-index: 10;
+  top: 30px;
+  right: -5px;
+  width: 144px;
+  background-color: #fff;
+  border: 1px solid #e3e5e8;
+  &__list {
+    margin: 8px 0;
+  }
+  &__item {
+    padding: 5px 10px;
+    display: flex;
+    span {
+      margin-left: 6px;
+    }
+    &:hover {
+      background-color: #e1f1ff;
+      cursor: pointer;
+    }
+  }
+}

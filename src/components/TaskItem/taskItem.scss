@@ -1,0 +1,31 @@
+.task-item {
+  position: relative;
+  display: flex;
+  padding: 4px;
+  border: 1px solid red;
+  background-color: #fff;
+  border: 1px solid #c4cad4;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  padding: 8px 4px;
+
+  &__body {
+    flex: 1;
+  }
+
+  &__actions {
+    min-width: 20px;
+    max-width: 20px;
+    height: 20px;
+
+    &:hover {
+      .icon {
+        color: $active-btn;
+      }
+    }
+  }
+
+  .icon {
+    color: $settings-color;
+  }
+}

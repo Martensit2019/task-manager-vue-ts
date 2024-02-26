@@ -1,0 +1,55 @@
+.notification {
+  position: fixed;
+  display: flex;
+  bottom: 90px;
+  right: -100%;
+  width: 400px;
+  border-radius: 4px;
+  box-shadow: 0px 16px 32px 0px #0000001a;
+  padding: 16px;
+  background: #fff;
+  transition: all 0.7s;
+
+  &_success {
+    border-left: 8px solid $success;
+  }
+
+  &_danger {
+    border-left: 8px solid $danger;
+  }
+
+  &.active {
+    right: 20px;
+  }
+
+  &__close {
+    cursor: pointer;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+  }
+
+  &__status {
+    min-width: 24px;
+    height: 24px;
+    background-color: $success;
+    border-radius: 50%;
+
+    &_success {
+      background-color: $success;
+    }
+
+    &_danger {
+      background-color: $danger;
+    }
+  }
+
+  &__content {
+    margin-left: 16px;
+  }
+
+  &__title {
+    margin-bottom: 8px;
+    font-weight: 500;
+  }
+}

@@ -1,0 +1,25 @@
+.btn {
+  width: 100%;
+  padding: 9px;
+  border-radius: 4px;
+  background-color: transparent;
+  cursor: pointer;
+
+  &_center {
+    text-align: center;
+  }
+
+  &_start {
+    text-align: start;
+  }
+
+  &_primary {
+    color: $primary;
+    border: 1px solid #c4cad4;
+  }
+
+  &_active {
+    color: $active-btn;
+    border: 1px solid transparent;
+  }
+}
