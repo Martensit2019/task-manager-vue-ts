@@ -1,5 +1,5 @@
 # Посмотреть приложение в действии
-https://generate-tasks-vue-ts.vercel.app/
+https://task-manager-vue-ts.vercel.app/
 
 # start-project
 
